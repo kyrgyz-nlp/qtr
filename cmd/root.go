@@ -11,7 +11,7 @@ import (
 var rootCmd = cobra.Command{
 	Use:   "qtr",
 	Long:  "cat <FILE> | qtr",
-	Short: "Kiril tamğasynan tekstterdi Qyrğyz latynçağa transliterlöö.",
+	Short: "Kiril tamğasynan Qyrğyz-latyn tamğasyna transliterlöö.",
 	Run: func(cmd *cobra.Command, args []string) {
 		scanner := bufio.NewScanner(os.Stdin)
 		scanner.Split(text.ScanLinesWithLF)
