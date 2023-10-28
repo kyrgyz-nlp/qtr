@@ -1,27 +1,27 @@
-# Qytyr qytyr
+# 🐭Qytyr qytyr
 
-Kiril tamğasynan tekstterdi Qyrğyz latynçağa transliterlöö.
+Kiril tamğasynan Qyrğyz-latyn tamğasyna transliterlöö.
 
-## Qoldonuu
+## 🤌 Qoldonuu
 
-### Quruu
+### 🛠️ Quruu
 ```sh
 go build .
 ```
 
-### Tekstterdi transliterlöö
+### 🔮 Tekstterdi transliterlöö
 
 ```sh
 cat FILE.txt | ./qtr
 echo "Салам дүйнө" | ./qtr
 ```
 
-## Transliterlöö negizi
+## 📑 Transliterlöö negizi
 
 Qoşumça ә, қ, ғ tamğalary alynğan,
 sebebi Qazak, Azerbajcan tilderinde qoldonulat.
 
-### Kiçi tamğalar
+### ⬇️ Kiçi tamğalar
 
 ```rb
 а => a
@@ -64,7 +64,7 @@ sebebi Qazak, Azerbajcan tilderinde qoldonulat.
 я => ja
 ```
 
-### Çoñ tamğalar
+### ⬆️ Çoñ tamğalar
 
 ```rb
 А => A
