@@ -2,6 +2,20 @@
 
 Kiril tamğasynan tekstterdi Qyrğyz latynçağa transliterlöö.
 
+## Qoldonuu
+
+### Quruu
+```sh
+go build .
+```
+
+### Tekstterdi transliterlöö
+
+```sh
+cat FILE.txt | ./qtr
+echo "Салам дүйнө" | ./qtr
+```
+
 ## Transliterlöö negizi
 
 Qoşumça ә, қ, ғ tamğalary alynğan,
@@ -51,6 +65,7 @@ sebebi Qazak, Azerbajcan tilderinde qoldonulat.
 ```
 
 ### Çoñ tamğalar
+
 ```rb
 А => A
 Б => B
