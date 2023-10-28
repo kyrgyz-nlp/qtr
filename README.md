@@ -1,4 +1,4 @@
-# 🐭Qytyr qytyr
+# 🐭 Qytyr qytyr
 
 Kiril tamğasynan Qyrğyz-latyn tamğasyna transliterlöö.
 
@@ -107,7 +107,7 @@ sebebi Qazak, Azerbajcan tilderinde qoldonulat.
 Я => JA
 ```
 
-## Qyrğyz.com
+## 🇰🇬 Qyrğyz.com
 ![special-rules.png](special-rules.png)
 
 <hr>
