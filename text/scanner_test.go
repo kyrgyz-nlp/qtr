@@ -27,18 +27,3 @@ func TestScannerBasicFunctions(t *testing.T) {
 
 	assert.Equal(t, testText, chars)
 }
-
-func TestSpecialCases(t *testing.T) {
-	// Q(қ),Ğ(ғ) > "а,ы,о,у" coon ündüülör menen cazylat.
-	testCases := [][]string{
-		{"Кыргыз", "Qyrğyz"},
-		{"Казак", "Qazaq"},
-		{"Бука", "Buqa"},
-		{"Булак", "Bulaq"},
-		{"Айгыр", "Ajğyr"},
-		{"Тагдыр", "Tağdyr"},
-		{"Сыргак", "Syrğaq"},
-		{"Максат", "Maqsat"},
-		{"Саламаттык сактоо кассасы", "Salamattyq saqtoo qassasy"},
-	}
-}
