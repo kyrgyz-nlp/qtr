@@ -95,6 +95,9 @@ type SpecialCase struct {
 // Bizge coon ündüülör erecesin ele dalildöö kerek
 // Içke ündüülörgö negizki algoritmge tuuraluu işteit
 // K(к),G(г) > "ә,е,и,ө,ү" içke ündüülör menen cazylat.
+// Qysqasy tömöndögú maqsatty atqarat
+// қ -> q
+// ғ -> ğ
 var withLetters = map[rune]void{
 	'а': {}, 'ы': {}, 'о': {}, 'у': {},
 	'А': {}, 'Ы': {}, 'О': {}, 'У': {},
@@ -137,7 +140,7 @@ func (r *RuleMatcher) match(char rune, prevChar, nextChar rune) []rune {
 		return []rune{char}
 	}
 
-	// Özgöço qeisterğe dal kelse
+	// Özgöço keisterğe dal kelse
 	if specialCase, found := r.alphabet.SpecialCases[char]; found {
 		_, prevCharMatched := specialCase.WithLetters[prevChar]
 		_, nextCharMatched := specialCase.WithLetters[nextChar]
