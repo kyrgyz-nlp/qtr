@@ -1,6 +1,6 @@
 # Qytyr qytyr
 
-Kiril tamgğasynda cazylğan tekstterdi Qyrğyz latynça transliterlöö.
+Kiril tamğasynan tekstterdi Qyrğyz latynçağa transliterlöö.
 
 ## Transliterlöö negizi
 
