@@ -45,6 +45,7 @@ sebebi Qazak, Azerbajcan tilderinde qoldonulat.
 н => h
 ң => ñ
 о => o
+ө => ö
 п => p
 р => r
 с => s
@@ -88,6 +89,7 @@ sebebi Qazak, Azerbajcan tilderinde qoldonulat.
 Н => H
 Ң => Ñ
 О => O
+Ө => Ö
 П => P
 Р => R
 С => S
