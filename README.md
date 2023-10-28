@@ -107,5 +107,7 @@ sebebi Qazak, Azerbajcan tilderinde qoldonulat.
 Я => JA
 ```
 
+![special-rules.png](special-rules.png)
+
 <hr>
 <p align="center">✨ 🚀 ✨</p>
