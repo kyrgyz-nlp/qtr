@@ -92,8 +92,8 @@ type SpecialCase struct {
 // Özgöço qeisteri q menen ğ
 // Oñ ce sol cagynda bolso
 // Q(қ),Ğ(ғ) > "а,ы,о,у" coon ündüülör menen cazylat.
-// Bizge coon ündülör erecesin ele dalildöö kerek
-// Içke ündüülörgö negizki algoritge tuuraluu işteit
+// Bizge coon ündüülör erecesin ele dalildöö kerek
+// Içke ündüülörgö negizki algoritmge tuuraluu işteit
 // K(к),G(г) > "ә,е,и,ө,ү" içke ündüülör menen cazylat.
 var withLetters = map[rune]void{
 	'а': {}, 'ы': {}, 'о': {}, 'у': {},
