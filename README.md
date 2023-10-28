@@ -8,7 +8,8 @@ Qoşumça ә, қ, ғ tamğalary alynğan,
 sebebi Qazak, Azerbajcan tilderinde qoldonulat.
 
 ### Kiçi tamğalar
-```
+
+```rb
 а => a
 б => b
 в => v
