@@ -1,3 +1,5 @@
+name: Cañy çyğaryşy
+
 on:
   release:
     types: [created]
