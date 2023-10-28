@@ -1,3 +1,5 @@
+[![Testter](https://github.com/kyrgyz-nlp/qtr/actions/workflows/go.yml/badge.svg)](https://github.com/kyrgyz-nlp/qtr/actions/workflows/go.yml)
+
 # 🐭 Qytyr qytyr
 
 Kiril tamğasynan Qyrğyz-latyn tamğasyna transliterlöö.
