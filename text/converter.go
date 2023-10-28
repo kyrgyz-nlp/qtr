@@ -9,7 +9,6 @@ import (
 
 type Converter struct {
 	scanner      *Scanner
-	writer       *bufio.Writer
 	inputScanner *bufio.Scanner
 }
 

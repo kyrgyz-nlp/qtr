@@ -20,13 +20,15 @@ func ScanLinesWithLF(data []byte, atEOF bool) (advance int, token []byte, err er
 		return 0, nil, nil
 	}
 	if i := bytes.IndexByte(data, '\n'); i >= 0 {
-		// We have a full newline-terminated line.
+		// Toluq sap bizde azyr bar
 		return i + 1, dropCR(data[0 : i+1]), nil
 	}
-	// If we're at EOF, we have a final, non-terminated line. Return it.
+
+	// EOFqo qabylsaq bolgondoj qaitaryp berebiz
 	if atEOF {
 		return len(data), dropCR(data), nil
 	}
-	// Request more data.
+
+	// Dağu oquu
 	return 0, nil, nil
 }
