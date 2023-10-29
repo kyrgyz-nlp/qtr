@@ -20,7 +20,7 @@ echo "Салам дүйнө" | ./qtr
 
 ## 📑 Transliterlöö negizi
 
-Qoşumça ә, қ, ғ tamğalary alynğan,
+Qoşumça ә, қ, ғ tamğalary qoşulğan,
 sebebi Qazak, Azerbajcan tilderinde qoldonulat.
 
 ### ⬇️ Kiçi tamğalar
