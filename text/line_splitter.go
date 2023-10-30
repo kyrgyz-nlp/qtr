@@ -11,10 +11,10 @@ func dropCR(data []byte) []byte {
 }
 
 // ScanLinesWithLF Scanner'ge saptardy bölüü funktsijasy teksttin ar bir sabyn
-// qaitaryp cañy sap belgisi menen qoşo beret al boş bolup qalyş mümkün.
-// Cañy sap belgisi bul koşumça simvol bolot, eñ aqyrqysy cańy sap belgisi kelet.
+// qaitaryp cañy sap belgisin qoşo beret al boş bolup qalyşy mümkün.
+// Cañy sap belgisi bul koşumça simvol bolot, eñ aqyrqysy cańy sap belgi qatary kelet.
 // Regularduu tujuntma notatsijasy - `\r?\n`.
-// Cańy sap belgisi bolboso da aqyrqy maanilüü saby soñunda qaitarylat.
+// Cańy sap belgisi bolboso dal aqyrqy maanilüü sabyn soñunda qaitarylat.
 func ScanLinesWithLF(data []byte, atEOF bool) (advance int, token []byte, err error) {
 	if atEOF && len(data) == 0 {
 		return 0, nil, nil
